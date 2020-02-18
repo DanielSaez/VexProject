@@ -4,9 +4,7 @@ body{
 
 #Toolbar{
 width: 100%;
-height: 1000px;
-
-
+height: 100px;
 }
 
 #stopwatch{
@@ -28,8 +26,14 @@ float: left:
 #resetButton{
 height: 50px;
 width: 50px;
-float: right;
-
-
+float: right; 
 }
 
+.cube{
+    height: 50px;
+    width: 50px;
+}
+
+tr{
+    text-align: center;
+}
