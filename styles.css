@@ -34,6 +34,35 @@ float: right;
     width: 50px;
 }
 
-tr{
-    text-align: center;
+#scoreBoxes{
+width: 100%;
 }
+
+#RedScoreBox{
+    background: red;
+    width: 40.2%;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    height: 50%;
+}
+
+#BlueScoreBox{
+    background:blue;
+    width: 45%;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 0px 0px 156px;
+    height: 50%;
+
+}
+
+.plus,.minus,.cube{
+height: 40px;
+width: 40px;
+padding: 25px, 25px, 25px, 25px
+}
+
