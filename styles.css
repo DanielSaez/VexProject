@@ -45,7 +45,7 @@ width: 100%;
     border-radius: 15px;
     text-align: center;
     padding: 15px;
-    height: 50%;
+    height: auto;
 }
 
 #BlueScoreBox{
@@ -56,13 +56,23 @@ width: 100%;
     text-align: center;
     padding: 15px;
     margin: 0px 0px 0px 156px;
-    height: 50%;
+    height: auto;
 
 }
 
 .plus,.minus,.cube{
-height: 40px;
-width: 40px;
-padding: 25px, 25px, 25px, 25px
+height: 100px;
+width: 100px;
+padding: 75px, 75px, 75px, 75px
 }
 
+.tower{
+    height:300px;
+    width: 250px;
+}
+
+#orangeTower, #greenTower, #purpleTower{
+display: inline;
+padding: 75px;
+
+}
