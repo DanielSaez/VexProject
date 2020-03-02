@@ -1,5 +1,4 @@
 body{
-
 }
 
 #Toolbar{
@@ -20,7 +19,7 @@ float: left;
 }
 
 #Title{
-float: left:
+float: left;
 }
 
 #resetButton{
@@ -30,8 +29,8 @@ float: right;
 }
 
 .cube{
-    height: 50px;
-    width: 50px;
+height: 50px;
+width: 50px;
 }
 
 #scoreBoxes{
@@ -39,24 +38,24 @@ width: 100%;
 }
 
 #RedScoreBox{
-    background: red;
-    width: 40.2%;
-    display: inline-block;
-    border-radius: 15px;
-    text-align: center;
-    padding: 15px;
-    height: auto;
+background: red;
+width: 40.2%;
+display: inline-block;
+border-radius: 15px;
+text-align: center;
+padding: 15px;
+height: auto;
 }
 
 #BlueScoreBox{
-    background:blue;
-    width: 45%;
-    display: inline-block;
-    border-radius: 15px;
-    text-align: center;
-    padding: 15px;
-    margin: 0px 0px 0px 156px;
-    height: auto;
+background:blue;
+width: 45%;
+display: inline-block;
+border-radius: 15px;
+text-align: center;
+padding: 15px;
+margin: 0px 0px 0px 156px;
+height: auto;
 
 }
 
@@ -67,12 +66,22 @@ padding: 75px, 75px, 75px, 75px
 }
 
 .tower{
-    height:300px;
-    width: 250px;
+height:300px;
+width: 250px;
+}
+
+#orangeTower, #greenTower, #purpleTower{
+display: inline;
+padding: 70px;
+}
+
+h1 {
+display: inline;
+height:300px;
+width: 250px;
 }
 
 #orangeTower, #greenTower, #purpleTower{
 display: inline;
 padding: 75px;
-
 }
