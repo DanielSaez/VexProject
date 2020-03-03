@@ -1,4 +1,4 @@
-
+/*
 let PlusRedOrangeCube = document.getElementById("PlusRedOrangeCube");
 let PlusRedGreenCube
 let PlusRedPurpleCube
@@ -21,3 +21,17 @@ document.querySelector("").addEventListener(‘click’, function(e) {
         // do whatever you want here
         
         }
+        
+
+---------------------------
+var number = 1;
+
+function plusOne() {
+  var count = document.getElementById('count');
+
+  number++;
+  count.innerHTML = number;
+}
+
+*/
+

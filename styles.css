@@ -77,11 +77,30 @@ padding: 70px;
 
 h1 {
 display: inline;
-height:300px;
-width: 250px;
+
+
 }
 
-#orangeTower, #greenTower, #purpleTower{
-display: inline;
-padding: 75px;
+#orangeTower, #greenTower, #greenTower{
+width: 700px;
+}
+
+#orangeTower{
+float: left;
+
+}
+
+#greenTower{
+float: center;
+
+}
+
+#greenTower{
+float: right;
+
+}
+
+#TowerScores{
+    width: 100%;
+    text-align: center;
 }
