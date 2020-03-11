@@ -1,20 +1,4 @@
 /*
-let PlusRedOrangeCube = document.getElementById("PlusRedOrangeCube");
-let PlusRedGreenCube
-let PlusRedPurpleCube
-
-let MinusRedOrangeCube = document.getElementById("MinusRedOrangeCube");
-let MinusRedGreenCube
-let MinusRedPurpleCube
-
-let PlusBlueOrangeCube
-let PlusBlueGreenCube
-let PlusBluePurpleCube
-
-let MinusBlueOrangeCube
-let MinusBlueGreenCube
-let MinusBluePurpleCube
-
 
 document.querySelector("").addEventListener(‘click’, function(e) {
 
@@ -24,14 +8,42 @@ document.querySelector("").addEventListener(‘click’, function(e) {
         
 
 ---------------------------
-var number = 1;
 
-function plusOne() {
-  var count = document.getElementById('count');
 
-  number++;
-  count.innerHTML = number;
-}
+PlusRedOrangeCube.addEventListener('click',() =>{
+
+});
+
+
 
 */
 
+//buttons-------------------------------------------------------------------
+
+let PlusRedOrangeCube = document.getElementById('#PlusRedOrangeCube')
+let PlusRedGreenCube = document.getElementById('#PlusRedGreenCube')
+let PlusRedPurpleCube = document.getElementById('#PlusRedPurpleCube')
+
+let MinusRedOrangeCube = document.getElementById('#MinusRedOrangeCube')
+let MinusRedGreenCube = document.getElementById('#MinusRedGreenCube')
+let MinusRedPurpleCube = document.getElementById('#MinusRedPurpleCube')
+
+let PlusBlueOrangeCube = document.getElementById('#PlusBlueOrangeCube')
+let PlusBlueGreenCube = document.getElementById('#PlusBlueGreenCube')
+let PlusBluePurpleCube = document.getElementById('#PlusBluePurpleCube')
+
+let MinusBlueOrangeCube = document.getElementById('#MinusBlueOrangeCube')
+let MinusBlueGreenCube = document.getElementById('#MinusBlueGreenCube')
+let MinusBluePurpleCube = document.getElementById('#MinusBluePurpleCube')
+
+
+//-------------------------------------------------------------------
+
+PlusRedOrangeCube.addEventListener('click', () => {
+  alert("yeeeeeeeeeeeeeeeeet")
+}
+
+
+MinusRedOrangeCube.addEventListener('onclick', () => {
+alert("yeeeeeeeeeeeeeeeeet")
+  })
